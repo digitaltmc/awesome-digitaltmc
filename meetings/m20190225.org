@@ -1,0 +1,12 @@
+
+** What
+
+April 展示页面设计：用户登录与注册，会议预订，用户中心。
+前端设计讨论，技术讨论
+
+** TODO
+
+Build H5 and push on server for Product perview
+小程序测试版可以在SAP内部使用么？
+下次会议：展示前后端POC。
+

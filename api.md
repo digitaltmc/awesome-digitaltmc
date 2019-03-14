@@ -24,3 +24,19 @@ mutation {
 }
 ```
 
+mutation {
+  book(person: "5c85eaa75ee116b982774e61", date: "20190909", role: TMD, title: "hehe") {
+   id
+    agenda {
+      role {
+        name
+        member {
+          name
+        }
+      }
+      duration
+      title
+    }
+    date
+  }
+}
