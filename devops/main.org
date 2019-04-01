@@ -1,11 +1,16 @@
 
-** TODO
-
-Deploy taro H5 to /h5/.
-Use heroku.
-
 ** Heroku
 
+We are using a heroku team: digitaltmc
+https://dashboard.heroku.com/teams/digitaltmc/apps
+Since it's free plan, so we can only have 5 collaborators.
 
 mongodb://<dbuser>:<dbpassword>@ds239703.mlab.com:39703/heroku_ckc1k344
 mongodb://heroku_ckc1k344:99a6mjb9dj5tf7qo8r0mlbbiug@ds239703.mlab.com:39703/heroku_ckc1k344
+
+*** References
+
+How we use heroku to deploy static build web:
+https://m.alphasights.com/using-nginx-on-heroku-to-serve-single-page-apps-and-avoid-cors-5d013b171a45
+https://github.com/heroku/heroku-buildpack-static
+
