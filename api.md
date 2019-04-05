@@ -24,6 +24,25 @@ mutation {
 }
 ```
 
+```graphql
+
+mutation {
+  book(date: "2019-03-11T00:00:00Z", role: Speaker, title: "Hey buddy") {
+    date
+    agenda {
+      role
+      title
+      duration
+      member{
+        name
+        mobile
+        email
+        id
+      }
+    }
+  }
+}
+
 mutation {
   book(person: "5c85eaa75ee116b982774e61", date: "20190909", role: TMD, title: "hehe") {
    id
@@ -40,3 +59,15 @@ mutation {
     date
   }
 }
+
+// Query for meetings
+{
+  meetings {
+    id
+    agenda {
+      role
+    }
+    date
+  }
+}
+```
