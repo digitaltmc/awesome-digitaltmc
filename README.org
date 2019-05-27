@@ -1,0 +1,34 @@
+* Intro
+
+Vision: digitalize our TMC, achieve our excellence
+
+Mission:
+- Make a digital TMC system for use in SAP TMC.
+- Find a best working model.
+
+Core values:
+- Excellence. We try and use the most advanced techniques and management skills, to achieve our excellence from this project.
+- Communication. We communicate more.
+
+* Documentation
+
+We are using a github organization to host our codes. Here are the introduction of each projects:
+
+https://github.com/digitaltmc/awesome-digitaltmc
+Main documentation repo. We share our knowledge, experience here.
+It's also a window for our team, to let more people know who we are, how we work.
+
+https://github.com/digitaltmc/dt-server
+The main backend server.
+
+https://github.com/digitaltmc/taro-fe
+The main frontend server.
+
+https://github.com/digitaltmc/education
+For education purpose. Since we are learning from this project, we need to educate ourselves.
+
+
+
+* History
+
+This project starts as an HPL project of Owen Wang, who wants to do some start-up project and want a ditigal system for his VPE work at SAP TMC. Combining all these, we have digitalTMC.

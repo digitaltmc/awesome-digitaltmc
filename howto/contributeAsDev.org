@@ -1,0 +1,9 @@
+
+* TLDR
+To contribute as a developer, you can fork these repos, create Pull Requests, and ask for review.
+
+* How to setup local dev environment
+
+Install Golang, Docker (for running MongoDB in containers), Visual Studio Code (with Golang plugin).
+Install nvm, node (latest version).
+
