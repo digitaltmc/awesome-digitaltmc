@@ -6,7 +6,6 @@ https://dashboard.heroku.com/teams/digitaltmc/apps
 Since it's free plan, so we can only have 5 collaborators.
 
 mongodb://<dbuser>:<dbpassword>@ds239703.mlab.com:39703/heroku_ckc1k344
-mongodb://heroku_ckc1k344:99a6mjb9dj5tf7qo8r0mlbbiug@ds239703.mlab.com:39703/heroku_ckc1k344
 
 *** References
 
