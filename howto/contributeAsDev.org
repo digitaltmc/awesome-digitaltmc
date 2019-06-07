@@ -7,3 +7,31 @@ To contribute as a developer, you can fork these repos, create Pull Requests, an
 Install Golang, Docker (for running MongoDB in containers), Visual Studio Code (with Golang plugin).
 Install nvm, node (latest version).
 
+* How to set up git PR
+
+- Set origin to point to team repo.
+- Set your own remote, e.g. wcf is mine.
+- `git pull` often from origin/master to keep your code synced.
+- `git co -b yourDevBranch` to start development, and remember to push to your own repo, e.g. `git push wcf`. NOTE: don't push to origin!!!
+
+#+BEGIN_SRC 
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/digitaltmc/dt-server.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "dev"]
+	remote = origin
+	merge = refs/heads/dev
+[remote "wcf"]
+	url = https://github.com/silencej/dt-server.git
+	fetch = +refs/heads/*:refs/remotes/wcf/*
+#+END_SRC
